@@ -1,12 +1,18 @@
 body {
-text-align: center;
-color: lightgrey;
+font-family: 'Roboto', sans-serif;
+  color: #4885ed;
+  font-weight:bold;
+}
+
+h1 {
+font-family:font-family: 'Roboto', sans-serif;
+font-size: 25px;
+color: #4885ed;
+font-weight:bold;
 }
 
 .head {
-position: relative;
-margin-left: auto;
-margin-right: auto;
+text-align: center;
 border: 1px lightgrey solid;
 }
 
@@ -17,9 +23,9 @@ height: 50px;
 }
 
 .main {
-margin-left: auto;
-margin-right: auto;
-margin-top:123px;
+margin:auto;
+text-align: center;
+margin-top:25px;
 width: 448px;
 height: 521px;
 border: 1px lightgrey solid;
@@ -31,30 +37,44 @@ width: 100px;
 height: 100px;
 }
 
-.loginemail {
+input[type="text"] {
 margin-left: auto;
 margin-right: auto;
 margin-top:25px;
+font-family: 'Roboto', sans-serif;
 width: 338px;
-height: 70px;
+height: 50px;
 border: 1px lightgrey solid;
 border-radius: 8px;
 }
 
-.loginpw {
+input[type="password"] {
 margin-left: auto;
 margin-right: auto;
 margin-top:25px;
+font-family: 'Roboto', sans-serif;
 width: 338px;
-height: 70px;
+height: 50px;
 border: 1px lightgrey solid;
 border-radius: 8px;
 }
 
-#button {
-  margin-top: 30px;
+.checkremember {
+  position: relative;
+  cursor: pointer;
+  color: #4885ed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.button {
+ cursor: pointer;
+  margin-top: 5px;
   margin-right: 20px;
-  background-color: blue;
+  font-family: 'Roboto', sans-serif;
+  color: #4885ed;
+  font-weight:bold;
+  background-color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -62,6 +82,7 @@ border-radius: 8px;
   font-size: 12px;
 }
 
-a {
-color: white;
+.icons{
+  width: 24px;
+    height: 24px;
 }
